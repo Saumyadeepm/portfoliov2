@@ -1,5 +1,18 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import React from 'react';
+
+type Project = {
+  title: string;
+  href: string;
+  dates: string;
+  active: boolean;
+  description: string;
+  technologies: string[];
+  links: { type: string; href: string; icon: React.ReactNode }[];
+  image?: string;
+  video?: string;
+};
 
 export const DATA = {
   name: "Saumyadeep Mitra",
@@ -60,7 +73,8 @@ export const DATA = {
       logoUrl: "/isro-logo.png", // Replace with actual ISRO logo
       start: "January 2024",
       end: "April 2024",
-      description: (<>
+      description: (
+          <>
             • Identified 12 parameters for detecting health disparities in Indian healthcare (NHRR).<br/>
             • Analyzed healthcare datasets, improving resource allocation by 15% and identifying equipment
             disparities.<br/>
@@ -108,12 +122,12 @@ export const DATA = {
       school: "CHRIST UNIVERSITY",
       href: "https://christuniversity.in/",
       degree: "Bachelor of Science in Data Science",
-      logoUrl: "/christ-logo.png", // Replace with actual university logo
+      logoUrl: "/christ-logo.png",
       start: "2021",
       end: "2024",
       description: (
           <>
-            <u><i>Relevant Courses</i></u> - <i>Data Structures & Algorithms, Machine Learning, Deep Learning, DBMS,
+            <u><i>Relevant Courses</i></u> - <i>Data Structures &amp; Algorithms, Machine Learning, Deep Learning, DBMS,
             Cloud Computing</i>
           </>
       ),
@@ -122,7 +136,7 @@ export const DATA = {
   projects: [
     {
       title: "Interactive Web Interface for LLM Models",
-      href: "https://github.com/yourusername/llm-interface", // Replace with actual project link
+      href: "https://github.com/yourusername/llm-interface",
       dates: "Aug 2024 - Sep 2024",
       active: true,
       description:
@@ -136,10 +150,12 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/yourusername/llm-interface", // Replace with actual GitHub link
+          href: "https://github.com/yourusername/llm-interface",
           icon: <Icons.github className="size-3" />,
         },
       ],
+      image: undefined,
+      video: undefined,
     },
     {
       title: "Traffic Light Control Optimization",
@@ -161,6 +177,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
+      image: undefined,
+      video: undefined,
     },
     {
       title: "Automobiles E-Commerce Website",
@@ -182,6 +200,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
+      image: undefined,
+      video: undefined,
     },
-  ],
+  ] as Project[],
 } as const;
