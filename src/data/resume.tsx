@@ -180,6 +180,28 @@ export const DATA = {
       image: undefined,
       video: undefined,
     },
+{
+  title: "Custom QA Chatbot Development",
+  dates: "Apr 2023 - May 2023",
+  active: true,
+  description:
+      "Developed an advanced NLP-based chatbot that answers queries in 7 domains (Science, Technology, History, Geography, News, Sports, etc.). Increased user engagement by 30% through personalized recommendations and real-time global event updates. Achieved 95% accuracy in query understanding using NLTK for text processing and a sequential model with 3 dense layers. Optimized performance with Stochastic Gradient Descent (SGD) and softmax activation, refining response accuracy by 20%.",
+  technologies: [
+    "Python",
+    "NLTK",
+    "Machine Learning",
+    "Deep Learning",
+  ],
+  links: [
+    {
+      type: "GitHub",
+      href: "https://github.com/yourusername/chatbot-project", // Replace with actual GitHub link
+      icon: <Icons.github className="size-3" />,
+    },
+  ],
+  image: undefined,
+  video: undefined,
+},
     {
       title: "Automobiles E-Commerce Website",
       href: "https://github.com/yourusername/auto-ecommerce", // Replace with actual project link
