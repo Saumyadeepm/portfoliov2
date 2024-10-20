@@ -19,13 +19,14 @@ export default function Page() {
             <div className="gap-2 flex justify-between">
               <div className="flex-col flex flex-1 space-y-1.5">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Hi, I'm {DATA.name.split(" ")[0]} 👋
+                  Hi, I&apos;m {String(DATA.name.split(" ")[0])} 👋
                 </h1>
                 <p className="max-w-[600px] md:text-xl">{DATA.description}</p>
               </div>
               <Avatar className="size-28 border">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
-                <AvatarFallback>{DATA.initials}</AvatarFallback>
+                <AvatarFallback>{DATA.initials ?? "N/A"}</AvatarFallback>
+
               </Avatar>
             </div>
           </div>
@@ -43,13 +44,13 @@ export default function Page() {
                 <ResumeCard
                     key={work.company}
                     logoUrl={work.logoUrl}
-                    altText={work.company}
+                    altText={work.company ? String(work.company) : "Company Logo"} // Cast to string
                     title={work.company}
                     subtitle={work.title}
                     href={work.href}
                     badges={work.badges}
                     period={`${work.start} - ${work.end ?? "Present"}`}
-                    description={work.description}
+                    description={String(work.description)}
                 />
             ))}
           </div>
@@ -91,7 +92,7 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Here are some of the projects I've worked on during my academic and professional journey.
+                  Here are some of the projects I&apos;ve worked on during my academic and professional journey.
                 </p>
               </div>
             </div>
@@ -100,12 +101,12 @@ export default function Page() {
                   <ProjectCard
                       key={project.title}
                       href={project.href}
-                      title={project.title}
-                      description={project.description}
-                      dates={project.dates}
-                      tags={project.technologies}
-                      image={project.image}
-                      video={project.video}
+                      title={project.title} // Ensure title is a string
+                      description={project.description} // Ensure description is a string
+                      dates={project.dates} // Ensure dates is a string
+                      tags={project.technologies} // Ensure tags are strings
+                      image={project.image ?? undefined} // Handle undefined
+                      video={project.video ?? undefined} // Handle undefined
                       links={project.links}
                   />
               ))}
@@ -136,7 +137,7 @@ export default function Page() {
                 >
                   LinkedIn
                 </Link>
-                . I'm always open to discussing new opportunities and collaborations.
+                . I&apos;m always open to discussing new opportunities and collaborations.
               </p>
             </div>
           </div>
