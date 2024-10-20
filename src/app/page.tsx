@@ -50,7 +50,7 @@ export default function Page() {
                     href={work.href}
                     badges={work.badges}
                     period={`${work.start} - ${work.end ?? "Present"}`}
-                    description={String(work.description)}
+                    description={work.description}
                 />
             ))}
           </div>
