@@ -159,7 +159,7 @@ export const DATA = {
     },
     {
       title: "Traffic Light Control Optimization",
-      href: "https://github.com/yourusername/traffic-optimization", // Replace with actual project link
+      href: "https://github.com/Saumyadeepm/RL-TrafficLight-Control-Adaptive-Traffic-Management", // Replace with actual project link
       dates: "Nov 2023 - Dec 2024",
       active: true,
       description:
@@ -173,7 +173,7 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/yourusername/traffic-optimization", // Replace with actual GitHub link
+          href: "https://github.com/Saumyadeepm/RL-TrafficLight-Control-Adaptive-Traffic-Management", // Replace with actual GitHub link
           icon: <Icons.github className="size-3" />,
         },
       ],
