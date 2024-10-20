@@ -218,7 +218,7 @@ export const DATA = {
   links: [
     {
       type: "GitHub",
-      href: "https://github.com/yourusername/chatbot-project", // Replace with actual GitHub link
+      href: "https://github.com/Saumyadeepm/Creating-Custom-All-Rounder-ChatBot", // Replace with actual GitHub link
       icon: <Icons.github className="size-3" />,
     },
   ],
@@ -240,7 +240,7 @@ export const DATA = {
   links: [
     {
       type: "GitHub",
-      href: "https://github.com/yourusername/web-browser", // Replace with actual GitHub link
+      href: "https://github.com/Saumyadeepm/Browser-in-Python-Using-PyQt5", // Replace with actual GitHub link
       icon: <Icons.github className="size-3" />,
     },
   ],
