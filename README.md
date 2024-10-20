@@ -1,6 +1,7 @@
 <div align="center">
    
-![Portfolio](https://saumyadeepmitra.vercel.app/)
+<img src="https://github.com/Saumyadeepm/portfoliov2/raw/f472da24837b4cfe04167cd90fd44de1be1b72ba/public/profile.png" alt="Website Demo" width="600"/>
+
 </div>
 
 # Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
