@@ -18,12 +18,12 @@ export const DATA = {
   name: "Saumyadeep Mitra",
   initials: "SM",
   url: "https://saumyadeepmitra.com", // You may want to replace this with your actual website if you have one
-  location: "Pune, India",
-  locationLink: "https://www.google.com/maps/place/pune",
+  location: "Guwahati, India",
+  locationLink: "https://www.google.com/maps/place/guwahati",
   description:
-      "Data Science student with experience in Machine Learning, Deep Learning, and Full-Stack Development. Passionate about applying AI to solve real-world problems.",
+      "Data Science specialist with experience in Machine Learning, Deep Learning, and Full-Stack Development. Passionate about applying AI to solve real-world problems.",
   summary:
-      "I'm a Bachelor of Science in Data Science student at CHRIST UNIVERSITY, graduated in June 2024. I have experience in various areas of data science and software development, including machine learning, deep learning, and full-stack web development. I've completed internships at the Indian Space Research Organization and Nehru Arts and Science College(in collaboration with ICAR), where I worked on projects involving National Health Resource Repository data analysis and disease detection using deep learning.",
+      "I hold Bachelor of Science in Data Science from CHRIST UNIVERSITY, graduated in June 2024. I have experience in various areas of data science and software development, including machine learning, deep learning, and full-stack web development. I've completed internships at the Indian Space Research Organization and Nehru Arts and Science College(in collaboration with ICAR), where I worked on projects involving National Health Resource Repository data analysis and disease detection using deep learning.",
   avatarUrl: "/me.jpg", // You may want to replace this with your actual avatar image
   skills: [
     "Python",
