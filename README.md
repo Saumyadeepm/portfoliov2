@@ -1,6 +1,6 @@
 <div align="center">
    
-<img src="https://github.com/Saumyadeepm/portfoliov2/raw/f472da24837b4cfe04167cd90fd44de1be1b72ba/public/profile.png" alt="Website Demo" width="600"/>
+<img src="https://github.com/Saumyadeepm/portfoliov2/blob/3e9ed8c7edf46fac96a523f2b6527735cfe0dc6e/profile.png" alt="Website Demo" width="600"/>
 
 </div>
 
