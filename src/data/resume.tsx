@@ -205,6 +205,7 @@ export const DATA = {
     },
     {
   title: "Custom QA Chatbot Development",
+  href: "https://github.com/Saumyadeepm/Creating-Custom-All-Rounder-ChatBot",
   dates: "Apr 2023 - May 2023",
   active: true,
   description:
@@ -227,6 +228,7 @@ export const DATA = {
   },
     {
   title: "Basic Web Browser Development",
+  href: "https://github.com/Saumyadeepm/Browser-in-Python-Using-PyQt5",
   dates: "Mar 2022",
   active: true,
   description:
