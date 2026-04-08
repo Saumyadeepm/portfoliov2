@@ -226,6 +226,31 @@ export const DATA = {
   video: undefined,
   },
     {
+      title: "Pro Quant Exit Scanner",
+      href: "https://github.com/Saumyadeepm/pro-quant-exit-scanner",
+      dates: "2024",
+      active: true,
+      description:
+          "Built an async Python scanner for Binance USDT-M futures that fetches real-time OHLCV data for the top 50 symbols by volume. Computes per-symbol alpha relative to BTC, 5-minute momentum, SMA-20 distance, and RSI to generate composite quant scores. Classifies each symbol as PERFECT ENTRY, EMERGING, OVEREXTENDED, or EXIT / TAKE PROFIT based on mean-reversion and momentum thresholds, refreshing every 15 seconds in a live Jupyter dashboard.",
+      technologies: [
+        "Python",
+        "asyncio",
+        "aiohttp",
+        "pandas",
+        "NumPy",
+        "Jupyter",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/Saumyadeepm/pro-quant-exit-scanner",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: undefined,
+      video: undefined,
+    },
+    {
   title: "Basic Web Browser Development",
   dates: "Mar 2022",
   active: true,
