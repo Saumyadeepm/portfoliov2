@@ -136,7 +136,7 @@ export const DATA = {
       school: "MANIPAL ACADEMY OF HIGHER EDUCATION",
       href: "https://www.manipal.edu/",
       degree: "Master of Science in Data Science",
-      logoUrl: "/mahe-logo.png",
+      logoUrl: "/mahe-color.png",
       start: "2025",
       end: "2027",
       description: (
